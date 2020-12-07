@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    background-image: url("../images/photo22.jpg");
+    height: 210vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+    text-align: center;
+    padding: 50px 50 px;
+    margin: 10px;
+    border: 1px transparent white;
+    transition: 1s ease-in;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul li.active a {
+    color: black;
+    background-color: white;
+}
+
+.activePage {
+    background-color: green;
+    margin: 4px 4px;
+    padding: 4px 4px;
+}
+
+.contact-info {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 30px;
+    color: white;
+
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-transform: translate(-50%, -50%);
+}
+
+.info-details {
+    display: inline-block;
+    font-size: 2px;
+    color: white;
+}
+
+.contact-icons {
+    color: green;
+    font-size: 4rem;
+}
+
+.paragraph {
+    font-size: 25px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-image: url("../images/photo21.jpg");
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    position: absolute;
+    top: 220%;
+    left: 15%;
+    font-size: 30px;
+    color: white;
+
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-transform: translate(-50%, -50%);
+}
+
+.message-coll {
+    position: absolute;
+
+    font-size: 30px;
+    color: white;
+
+    padding: 30px 170px;
+    margin: 30px 170px;
+    text-transform: translate(-50%, -50%);
+}
+
+input {
+    margin-left: 160px;
+
+    border: none;
+
+    border-radius: 10%;
+    height: 40px;
+    width: auto;
+}
+
+.Message input {
+    border-radius: 7%;
+    height: 300px;
+    justify-content: center;
+}
+
+.submitbtn {
+    border: green;
+    border: border-box;
+    color: red;
+    font-size: 50px;
+    display: inline-block;
+    height: 5px;
+    width: 10px;
+    margin: 8px;
+    margin-left: 8px;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+.social-icons {
+    color: red;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 660px) {
+    .info-details,
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 200px;
+        align-items: center;
+    }
+}
