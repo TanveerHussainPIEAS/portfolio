@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+main {
+    background-image: url("../images/photo27.jpg");
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    text-align: center;
+    padding: 50px 50 px;
+    margin: 10px;
+    border: 1px transparent white;
+    transition: 1s ease-in;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul li.active a {
+    color: black;
+    background-color: white;
+}
+
+.activePage {
+    background-color: green;
+    margin: 4px 4px;
+    padding: 4px 4px;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+    color: black;
+
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-transform: translate(-50%, -50%);
+}
+
+h1:hover {
+    color: green;
+    transition: all 2s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    /* background-image:  url("./PhotosFromPexels/photo21.jpg"); */
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.cvLinks {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    font-size: 20px;
+    color: black;
+
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-transform: translate(-50%, -50%);
+}
+
+.cvSites {
+    font-size: 26px;
+
+    position: relative;
+    top: 15%;
+    left: -1%;
+
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    display: block;
+}
+
+.cvSites:hover {
+    background-color: lightblue;
+}
+
+i {
+    color: blue;
+    font-size: 3rem;
+}
+
+main section a {
+    color: black;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+.social-icons {
+    color: blue;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 660px) {
+    .cvLinks,
+    .cvSites {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 200px;
+        align-items: center;
+    }
+}
