@@ -56,15 +56,15 @@ ul li a {
     transition: 200ms ease-in;
 }
 
-ul li a:hover {
+/* ul li a:hover {
     color: black;
     background-color: white;
-}
+} */
 
-.activePage {
+/* .activePage {
     background-color: green;
     font-family: "Montserrat", "Arial", "Times New Roman", Times, serif;
-}
+} */
 
 .headline {
     width: 100%;
@@ -98,11 +98,11 @@ ul li a:hover {
     padding: 10px 30px;
 }
 
-.btn a:hover {
+/* .btn a:hover {
     transition: 200ms ease-in;
     color: black;
     background-color: white;
-}
+} */
 
 @media (max-width: 800px) {
     header .main {
@@ -171,10 +171,10 @@ main p {
     text-align: justify;
 }
 
-p:hover {
+/* p:hover {
     transition: 200ms ease-in;
     background-color: lightblue;
-}
+} */
 
 @media (max-width: 800px) {
     main {
@@ -195,7 +195,7 @@ footer {
     background-color: lightblue;
 }
 
-.social-icons {
+/* .social-icons {
     color: blue;
     font-size: 4rem;
-}
+} */

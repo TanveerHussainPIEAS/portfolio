@@ -39,16 +39,7 @@ ul li a:hover {
     background-color: white;
 }
 
-ul li.active a {
-    color: black;
-    background-color: white;
-}
 
-.activePage {
-    background-color: green;
-    margin: 4px 4px;
-    padding: 4px 4px;
-}
 
 .contact-info {
     position: absolute;

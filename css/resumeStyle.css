@@ -35,21 +35,21 @@ ul li a {
     transition: 1s ease-in;
 }
 
-ul li a:hover {
+/* ul li a:hover {
     color: black;
     background-color: white;
-}
+} */
 
-ul li.active a {
+/* ul li.active a {
     color: black;
     background-color: white;
-}
+} */
 
-.activePage {
+/* .activePage {
     background-color: green;
     margin: 4px 4px;
     padding: 4px 4px;
-}
+} */
 
 h1 {
     position: absolute;
@@ -63,10 +63,10 @@ h1 {
     text-transform: translate(-50%, -50%);
 }
 
-h1:hover {
+/* h1:hover {
     color: green;
     transition: all 2s ease;
-}
+} */
 
 a {
     text-decoration: none;
@@ -107,9 +107,9 @@ section {
     display: block;
 }
 
-.cvSites:hover {
+/* .cvSites:hover {
     background-color: lightblue;
-}
+} */
 
 i {
     color: blue;
